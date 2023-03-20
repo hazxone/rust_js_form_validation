@@ -1,5 +1,5 @@
-fn is_minimum(text : &str, max_length : usize) -> bool {
-  if text.len() < max_length
+fn is_minimum(text : &str, min_length : usize) -> bool {
+  if text.len() < min_length
   {
     return false;
   }
